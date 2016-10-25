@@ -1,8 +1,8 @@
 class Person{
   string name;
   
-  public Person(){
-    name = "Peter";
+  public Person(string name)
+  {
+    this.name = "Peter";
   }
-
 }
